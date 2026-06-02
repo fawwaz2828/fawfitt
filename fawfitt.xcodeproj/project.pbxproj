@@ -14,6 +14,24 @@
 		D71DEA682FAC815C00412ABE /* fawfittTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DEA672FAC815C00412ABE /* fawfittTests.swift */; };
 		D71DEA722FAC815C00412ABE /* fawfittUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DEA712FAC815C00412ABE /* fawfittUITests.swift */; };
 		D71DEA742FAC815C00412ABE /* fawfittUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D71DEA732FAC815C00412ABE /* fawfittUITestsLaunchTests.swift */; };
+		D75C7C722FCEACD400B9B23D /* ExerciseClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D75C7C712FCEACD400B9B23D /* ExerciseClassifier.mlmodel */; };
+		D7B8D87A2FB49B80009608DB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D7B8D8792FB49B80009608DB /* GoogleService-Info.plist */; };
+		D7B8D87E2FB4B55E009608DB /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D7B8D87D2FB4B55E009608DB /* FirebaseAuth */; };
+		D7B8D8802FB4B55E009608DB /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D7B8D87F2FB4B55E009608DB /* FirebaseFirestore */; };
+		FC0000000000000000000001 /* RepCounting.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000001 /* RepCounting.swift */; };
+		FC0000000000000000000002 /* GymRepCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000002 /* GymRepCounter.swift */; };
+		FC0000000000000000000003 /* AngleSmoother.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000003 /* AngleSmoother.swift */; };
+		FC0000000000000000000004 /* LiveWorkoutResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000004 /* LiveWorkoutResult.swift */; };
+		FC0000000000000000000005 /* JointAngle.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000005 /* JointAngle.swift */; };
+		FC0000000000000000000006 /* PoseDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000006 /* PoseDetector.swift */; };
+		FC0000000000000000000007 /* CameraSessionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000007 /* CameraSessionController.swift */; };
+		FC0000000000000000000008 /* MotionTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000008 /* MotionTracker.swift */; };
+		FC0000000000000000000009 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0000000000000000000009 /* CameraPreviewView.swift */; };
+		FC000000000000000000000A /* SkeletonOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB000000000000000000000A /* SkeletonOverlay.swift */; };
+		FC000000000000000000000B /* LiveWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB000000000000000000000B /* LiveWorkoutView.swift */; };
+		FC000000000000000000000C /* JointAngleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB000000000000000000000C /* JointAngleTests.swift */; };
+		FC000000000000000000000D /* ExerciseActionClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB000000000000000000000D /* ExerciseActionClassifier.swift */; };
+		FC000000000000000000000E /* GymRepCounterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB000000000000000000000E /* GymRepCounterTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +62,23 @@
 		D71DEA6D2FAC815C00412ABE /* fawfittUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fawfittUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D71DEA712FAC815C00412ABE /* fawfittUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fawfittUITests.swift; sourceTree = "<group>"; };
 		D71DEA732FAC815C00412ABE /* fawfittUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fawfittUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D75C7C712FCEACD400B9B23D /* ExerciseClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ExerciseClassifier.mlmodel; sourceTree = "<group>"; };
+		D7B8D8782FB49986009608DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D7B8D8792FB49B80009608DB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FB0000000000000000000001 /* RepCounting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepCounting.swift; sourceTree = "<group>"; };
+		FB0000000000000000000002 /* GymRepCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRepCounter.swift; sourceTree = "<group>"; };
+		FB0000000000000000000003 /* AngleSmoother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AngleSmoother.swift; sourceTree = "<group>"; };
+		FB0000000000000000000004 /* LiveWorkoutResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWorkoutResult.swift; sourceTree = "<group>"; };
+		FB0000000000000000000005 /* JointAngle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JointAngle.swift; sourceTree = "<group>"; };
+		FB0000000000000000000006 /* PoseDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoseDetector.swift; sourceTree = "<group>"; };
+		FB0000000000000000000007 /* CameraSessionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraSessionController.swift; sourceTree = "<group>"; };
+		FB0000000000000000000008 /* MotionTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionTracker.swift; sourceTree = "<group>"; };
+		FB0000000000000000000009 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		FB000000000000000000000A /* SkeletonOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkeletonOverlay.swift; sourceTree = "<group>"; };
+		FB000000000000000000000B /* LiveWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveWorkoutView.swift; sourceTree = "<group>"; };
+		FB000000000000000000000C /* JointAngleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JointAngleTests.swift; sourceTree = "<group>"; };
+		FB000000000000000000000D /* ExerciseActionClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseActionClassifier.swift; sourceTree = "<group>"; };
+		FB000000000000000000000E /* GymRepCounterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymRepCounterTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +86,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7B8D87E2FB4B55E009608DB /* FirebaseAuth in Frameworks */,
+				D7B8D8802FB4B55E009608DB /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,8 +131,12 @@
 		D71DEA552FAC815700412ABE /* fawfitt */ = {
 			isa = PBXGroup;
 			children = (
+				D7B8D8792FB49B80009608DB /* GoogleService-Info.plist */,
+				D7B8D8782FB49986009608DB /* Info.plist */,
 				D71DEA562FAC815700412ABE /* fawfittApp.swift */,
 				D71DEA582FAC815700412ABE /* ContentView.swift */,
+				FA00000000000000000000A1 /* Services */,
+				FA00000000000000000000A3 /* Features */,
 				D71DEA5A2FAC815B00412ABE /* Assets.xcassets */,
 				D71DEA5C2FAC815B00412ABE /* Preview Content */,
 			);
@@ -114,6 +155,7 @@
 			isa = PBXGroup;
 			children = (
 				D71DEA672FAC815C00412ABE /* fawfittTests.swift */,
+				FA00000000000000000000A5 /* MotionTracking */,
 			);
 			path = fawfittTests;
 			sourceTree = "<group>";
@@ -125,6 +167,66 @@
 				D71DEA732FAC815C00412ABE /* fawfittUITestsLaunchTests.swift */,
 			);
 			path = fawfittUITests;
+			sourceTree = "<group>";
+		};
+		D75C7C702FCEABE700B9B23D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D75C7C712FCEACD400B9B23D /* ExerciseClassifier.mlmodel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000A1 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000000000000000000A2 /* MotionTracking */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000A2 /* MotionTracking */ = {
+			isa = PBXGroup;
+			children = (
+				D75C7C702FCEABE700B9B23D /* Models */,
+				FB0000000000000000000003 /* AngleSmoother.swift */,
+				FB0000000000000000000007 /* CameraSessionController.swift */,
+				FB000000000000000000000D /* ExerciseActionClassifier.swift */,
+				FB0000000000000000000005 /* JointAngle.swift */,
+				FB0000000000000000000004 /* LiveWorkoutResult.swift */,
+				FB0000000000000000000008 /* MotionTracker.swift */,
+				FB0000000000000000000006 /* PoseDetector.swift */,
+				FB0000000000000000000001 /* RepCounting.swift */,
+				FB0000000000000000000002 /* GymRepCounter.swift */,
+			);
+			path = MotionTracking;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000A3 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				FA00000000000000000000A4 /* LiveWorkout */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000A4 /* LiveWorkout */ = {
+			isa = PBXGroup;
+			children = (
+				FB0000000000000000000009 /* CameraPreviewView.swift */,
+				FB000000000000000000000A /* SkeletonOverlay.swift */,
+				FB000000000000000000000B /* LiveWorkoutView.swift */,
+			);
+			path = LiveWorkout;
+			sourceTree = "<group>";
+		};
+		FA00000000000000000000A5 /* MotionTracking */ = {
+			isa = PBXGroup;
+			children = (
+				FB000000000000000000000C /* JointAngleTests.swift */,
+				FB000000000000000000000E /* GymRepCounterTests.swift */,
+			);
+			path = MotionTracking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +245,10 @@
 			dependencies = (
 			);
 			name = fawfitt;
+			packageProductDependencies = (
+				D7B8D87D2FB4B55E009608DB /* FirebaseAuth */,
+				D7B8D87F2FB4B55E009608DB /* FirebaseFirestore */,
+			);
 			productName = fawfitt;
 			productReference = D71DEA532FAC815700412ABE /* fawfitt.app */;
 			productType = "com.apple.product-type.application";
@@ -195,6 +301,14 @@
 				TargetAttributes = {
 					D71DEA522FAC815700412ABE = {
 						CreatedOnToolsVersion = 14.3.1;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.SignInWithApple = {
+								enabled = 1;
+							};
+						};
 					};
 					D71DEA622FAC815C00412ABE = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -215,6 +329,9 @@
 				Base,
 			);
 			mainGroup = D71DEA4A2FAC815700412ABE;
+			packageReferences = (
+				D7B8D87C2FB4B55E009608DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D71DEA542FAC815700412ABE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +350,7 @@
 			files = (
 				D71DEA5E2FAC815B00412ABE /* Preview Assets.xcassets in Resources */,
 				D71DEA5B2FAC815B00412ABE /* Assets.xcassets in Resources */,
+				D7B8D87A2FB49B80009608DB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,6 +377,19 @@
 			files = (
 				D71DEA592FAC815700412ABE /* ContentView.swift in Sources */,
 				D71DEA572FAC815700412ABE /* fawfittApp.swift in Sources */,
+				FC0000000000000000000003 /* AngleSmoother.swift in Sources */,
+				FC0000000000000000000007 /* CameraSessionController.swift in Sources */,
+				D75C7C722FCEACD400B9B23D /* ExerciseClassifier.mlmodel in Sources */,
+				FC000000000000000000000D /* ExerciseActionClassifier.swift in Sources */,
+				FC0000000000000000000005 /* JointAngle.swift in Sources */,
+				FC0000000000000000000004 /* LiveWorkoutResult.swift in Sources */,
+				FC0000000000000000000008 /* MotionTracker.swift in Sources */,
+				FC0000000000000000000006 /* PoseDetector.swift in Sources */,
+				FC0000000000000000000001 /* RepCounting.swift in Sources */,
+				FC0000000000000000000002 /* GymRepCounter.swift in Sources */,
+				FC0000000000000000000009 /* CameraPreviewView.swift in Sources */,
+				FC000000000000000000000A /* SkeletonOverlay.swift in Sources */,
+				FC000000000000000000000B /* LiveWorkoutView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +398,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D71DEA682FAC815C00412ABE /* fawfittTests.swift in Sources */,
+				FC000000000000000000000C /* JointAngleTests.swift in Sources */,
+				FC000000000000000000000E /* GymRepCounterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,11 +547,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fawfitt/fawfitt.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"fawfitt/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fawfitt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FawFitt;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "FawFitt reads activity, heart rate, sleep, and workout data to personalize coaching and analytics.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "FawFitt may write workout and nutrition progress when you enable tracking features.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -442,11 +581,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = fawfitt/fawfitt.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"fawfitt/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = fawfitt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FawFitt;
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "FawFitt reads activity, heart rate, sleep, and workout data to personalize coaching and analytics.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "FawFitt may write workout and nutrition progress when you enable tracking features.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -577,6 +722,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7B8D87C2FB4B55E009608DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7B8D87D2FB4B55E009608DB /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7B8D87C2FB4B55E009608DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D7B8D87F2FB4B55E009608DB /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7B8D87C2FB4B55E009608DB /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D71DEA4B2FAC815700412ABE /* Project object */;
 }
